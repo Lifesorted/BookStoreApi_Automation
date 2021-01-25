@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11736" started-at="2021-01-25T16:13:59Z" finished-at="2021-01-25T16:14:11Z">
+  <suite name="Default suite" duration-ms="15914" started-at="2021-01-25T16:24:31Z" finished-at="2021-01-25T16:24:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11736" started-at="2021-01-25T16:13:59Z" finished-at="2021-01-25T16:14:11Z">
+    <test name="Default test" duration-ms="15914" started-at="2021-01-25T16:24:31Z" finished-at="2021-01-25T16:24:47Z">
       <class name="com.Coop.Test.CoopApiTest">
-        <test-method status="PASS" signature="getReport()[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="getReport" is-config="true" duration-ms="202" started-at="2021-01-25T21:43:59Z" finished-at="2021-01-25T21:43:59Z">
+        <test-method status="PASS" signature="getReport()[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="getReport" is-config="true" duration-ms="2004" started-at="2021-01-25T21:54:29Z" finished-at="2021-01-25T21:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReport -->
-        <test-method status="PASS" signature="postChikenFeedApi()[pri:2, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postChikenFeedApi" duration-ms="4492" started-at="2021-01-25T21:43:59Z" finished-at="2021-01-25T21:44:04Z">
+        <test-method status="PASS" signature="postChikenFeedApi()[pri:2, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postChikenFeedApi" duration-ms="8886" started-at="2021-01-25T21:54:31Z" finished-at="2021-01-25T21:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postChikenFeedApi -->
-        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="11" started-at="2021-01-25T21:44:04Z" finished-at="2021-01-25T21:44:04Z">
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="28" started-at="2021-01-25T21:54:40Z" finished-at="2021-01-25T21:54:40Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsReport -->
-        <test-method status="PASS" signature="getAppInfo()[pri:3, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="getAppInfo" duration-ms="1488" started-at="2021-01-25T21:44:04Z" finished-at="2021-01-25T21:44:05Z">
+        <test-method status="PASS" signature="getAppInfo()[pri:3, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="getAppInfo" duration-ms="1464" started-at="2021-01-25T21:54:40Z" finished-at="2021-01-25T21:54:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAppInfo -->
-        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="1" started-at="2021-01-25T21:44:05Z" finished-at="2021-01-25T21:44:05Z">
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="1" started-at="2021-01-25T21:54:41Z" finished-at="2021-01-25T21:54:41Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsReport -->
-        <test-method status="PASS" signature="postEggsCollectApi()[pri:4, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postEggsCollectApi" duration-ms="1367" started-at="2021-01-25T21:44:05Z" finished-at="2021-01-25T21:44:07Z">
+        <test-method status="PASS" signature="postEggsCollectApi()[pri:4, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postEggsCollectApi" duration-ms="1449" started-at="2021-01-25T21:54:41Z" finished-at="2021-01-25T21:54:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postEggsCollectApi -->
-        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="0" started-at="2021-01-25T21:44:07Z" finished-at="2021-01-25T21:44:07Z">
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="2" started-at="2021-01-25T21:54:43Z" finished-at="2021-01-25T21:54:43Z">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsReport -->
-        <test-method status="PASS" signature="postEggsCountApi()[pri:5, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postEggsCountApi" duration-ms="1384" started-at="2021-01-25T21:44:07Z" finished-at="2021-01-25T21:44:08Z">
+        <test-method status="PASS" signature="postEggsCountApi()[pri:5, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postEggsCountApi" duration-ms="1415" started-at="2021-01-25T21:54:43Z" finished-at="2021-01-25T21:54:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postEggsCountApi -->
-        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="7" started-at="2021-01-25T21:44:08Z" finished-at="2021-01-25T21:44:08Z">
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="0" started-at="2021-01-25T21:54:44Z" finished-at="2021-01-25T21:54:44Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsReport -->
-        <test-method status="FAIL" signature="postBarnUnlockApi()[pri:6, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postBarnUnlockApi" duration-ms="1462" started-at="2021-01-25T21:44:08Z" finished-at="2021-01-25T21:44:10Z">
+        <test-method status="FAIL" signature="postBarnUnlockApi()[pri:6, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postBarnUnlockApi" duration-ms="1322" started-at="2021-01-25T21:54:44Z" finished-at="2021-01-25T21:54:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -150,7 +150,7 @@ Expected status line "HTTP/1.1 200 OK11" doesn't match actual status line "HTTP/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postBarnUnlockApi -->
-        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="10" started-at="2021-01-25T21:44:10Z" finished-at="2021-01-25T21:44:10Z">
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="5" started-at="2021-01-25T21:54:46Z" finished-at="2021-01-25T21:54:46Z">
           <params>
             <param index="0">
               <value>
@@ -161,22 +161,95 @@ Expected status line "HTTP/1.1 200 OK11" doesn't match actual status line "HTTP/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsReport -->
-        <test-method status="PASS" signature="postSeatDownApi()[pri:7, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postSeatDownApi" duration-ms="1476" started-at="2021-01-25T21:44:10Z" finished-at="2021-01-25T21:44:11Z">
+        <test-method status="FAIL" signature="postSeatDownApi()[pri:7, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="postSeatDownApi" duration-ms="1228" started-at="2021-01-25T21:54:46Z" finished-at="2021-01-25T21:54:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status line "HTTP/1.1 200 OK1" doesn't match actual status line "HTTP/1.1 200 OK".
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status line "HTTP/1.1 200 OK1" doesn't match actual status line "HTTP/1.1 200 OK".
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusLine(ResponseSpecificationImpl.groovy:139)
+	at io.restassured.specification.ResponseSpecification$statusLine$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusLine(ResponseSpecificationImpl.groovy:254)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusLine(ValidatableResponseOptionsImpl.java:99)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusLine(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusLine(ValidatableResponseImpl.groovy:154)
+	at io.restassured.internal.ValidatableResponseImpl.statusLine(ValidatableResponseImpl.groovy)
+	at com.Coop.Test.CoopApiTest.postSeatDownApi(CoopApiTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postSeatDownApi -->
-        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="1" started-at="2021-01-25T21:44:11Z" finished-at="2021-01-25T21:44:11Z">
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="logsReport" is-config="true" duration-ms="2" started-at="2021-01-25T21:54:47Z" finished-at="2021-01-25T21:54:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=postSeatDownApi status=SUCCESS method=CoopApiTest.postSeatDownApi()[pri:7, instance:com.Coop.Test.CoopApiTest@5e3a8624] output={null}]]]>
+                <![CDATA[[TestResult name=postSeatDownApi status=FAILURE method=CoopApiTest.postSeatDownApi()[pri:7, instance:com.Coop.Test.CoopApiTest@5e3a8624] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logsReport -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="flushReport" is-config="true" duration-ms="321" started-at="2021-01-25T21:44:11Z" finished-at="2021-01-25T21:44:12Z">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.Coop.Test.CoopApiTest@5e3a8624]" name="flushReport" is-config="true" duration-ms="933" started-at="2021-01-25T21:54:47Z" finished-at="2021-01-25T21:54:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->

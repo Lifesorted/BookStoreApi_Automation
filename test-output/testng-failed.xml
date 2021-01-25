@@ -5,6 +5,7 @@
     <classes>
       <class name="com.Coop.Test.CoopApiTest">
         <methods>
+          <include name="postSeatDownApi"/>
           <include name="postBarnUnlockApi"/>
           <include name="logsReport"/>
           <include name="flushReport"/>

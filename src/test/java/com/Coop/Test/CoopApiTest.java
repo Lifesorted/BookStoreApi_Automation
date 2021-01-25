@@ -109,7 +109,7 @@ public class CoopApiTest extends baseClass {
              .post("/api/1646/barn-unlock")
            .then()
              .statusCode(200)
-             .statusLine("HTTP/1.1 200 OK11")
+             .statusLine("HTTP/1.1 200 OK")
              .log().all();
 	}
 	
