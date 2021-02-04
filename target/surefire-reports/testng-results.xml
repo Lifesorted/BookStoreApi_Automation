@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13088" started-at="2021-02-04T04:15:47Z" finished-at="2021-02-04T04:16:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13088" started-at="2021-02-04T04:15:47Z" finished-at="2021-02-04T04:16:00Z">
+      <class name="com.Coop.Test.CoopApiTest">
+        <test-method status="PASS" signature="getReport()[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="getReport" is-config="true" duration-ms="577" started-at="2021-02-04T04:15:47Z" finished-at="2021-02-04T04:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method status="PASS" signature="postChikenFeedApi()[pri:2, instance:com.Coop.Test.CoopApiTest@735b478]" name="postChikenFeedApi" duration-ms="6154" started-at="2021-02-04T04:15:47Z" finished-at="2021-02-04T04:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postChikenFeedApi -->
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="logsReport" is-config="true" duration-ms="16" started-at="2021-02-04T04:15:53Z" finished-at="2021-02-04T04:15:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postChikenFeedApi status=SUCCESS method=CoopApiTest.postChikenFeedApi()[pri:2, instance:com.Coop.Test.CoopApiTest@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logsReport -->
+        <test-method status="PASS" signature="getAppInfo()[pri:3, instance:com.Coop.Test.CoopApiTest@735b478]" name="getAppInfo" duration-ms="1353" started-at="2021-02-04T04:15:53Z" finished-at="2021-02-04T04:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAppInfo -->
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="logsReport" is-config="true" duration-ms="0" started-at="2021-02-04T04:15:55Z" finished-at="2021-02-04T04:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAppInfo status=SUCCESS method=CoopApiTest.getAppInfo()[pri:3, instance:com.Coop.Test.CoopApiTest@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logsReport -->
+        <test-method status="PASS" signature="postEggsCollectApi()[pri:4, instance:com.Coop.Test.CoopApiTest@735b478]" name="postEggsCollectApi" duration-ms="1509" started-at="2021-02-04T04:15:55Z" finished-at="2021-02-04T04:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEggsCollectApi -->
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="logsReport" is-config="true" duration-ms="0" started-at="2021-02-04T04:15:56Z" finished-at="2021-02-04T04:15:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postEggsCollectApi status=SUCCESS method=CoopApiTest.postEggsCollectApi()[pri:4, instance:com.Coop.Test.CoopApiTest@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logsReport -->
+        <test-method status="PASS" signature="postEggsCountApi()[pri:5, instance:com.Coop.Test.CoopApiTest@735b478]" name="postEggsCountApi" duration-ms="1311" started-at="2021-02-04T04:15:56Z" finished-at="2021-02-04T04:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEggsCountApi -->
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="logsReport" is-config="true" duration-ms="0" started-at="2021-02-04T04:15:57Z" finished-at="2021-02-04T04:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postEggsCountApi status=SUCCESS method=CoopApiTest.postEggsCountApi()[pri:5, instance:com.Coop.Test.CoopApiTest@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logsReport -->
+        <test-method status="PASS" signature="postBarnUnlockApi()[pri:6, instance:com.Coop.Test.CoopApiTest@735b478]" name="postBarnUnlockApi" duration-ms="1289" started-at="2021-02-04T04:15:57Z" finished-at="2021-02-04T04:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postBarnUnlockApi -->
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="logsReport" is-config="true" duration-ms="1" started-at="2021-02-04T04:15:59Z" finished-at="2021-02-04T04:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postBarnUnlockApi status=SUCCESS method=CoopApiTest.postBarnUnlockApi()[pri:6, instance:com.Coop.Test.CoopApiTest@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logsReport -->
+        <test-method status="PASS" signature="postSeatDownApi()[pri:7, instance:com.Coop.Test.CoopApiTest@735b478]" name="postSeatDownApi" duration-ms="1415" started-at="2021-02-04T04:15:59Z" finished-at="2021-02-04T04:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSeatDownApi -->
+        <test-method status="PASS" signature="logsReport(org.testng.ITestResult)[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="logsReport" is-config="true" duration-ms="0" started-at="2021-02-04T04:16:00Z" finished-at="2021-02-04T04:16:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postSeatDownApi status=SUCCESS method=CoopApiTest.postSeatDownApi()[pri:7, instance:com.Coop.Test.CoopApiTest@735b478] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logsReport -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.Coop.Test.CoopApiTest@735b478]" name="flushReport" is-config="true" duration-ms="516" started-at="2021-02-04T04:16:00Z" finished-at="2021-02-04T04:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.Coop.Test.CoopApiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
